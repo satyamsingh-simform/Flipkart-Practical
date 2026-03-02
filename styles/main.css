@@ -111,10 +111,10 @@ input{
 }
 .top-sec-div{
     width: 100%;
-    width: 1250px;
-    height: 105px;
+    max-width: 1250px;
+    min-width: 650px;
     margin: 0 auto;
-    padding: 0 25px;
+    padding: 10px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -252,7 +252,7 @@ input{
     padding: 10px 20px 0;
 }
 .top-div2-para span{
-    font-size: 24px;
+    font-size: var(--text-xl);
 }
 .top-div2 > span{
     margin-left:20px ;
