@@ -3,39 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Flipkart homepage UI - This Project is a single-page UI clone of flipkart's home page.">
+    <meta name="keywords" content="Flipkart, UI, Layout, Design">
+    <meta name="author" content="Satyam">
     <title>Flipkart-layout</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
     <header class="header">
         <div class="head-div">
             <div class="head-div-left">
-                <img src="" alt="flipkart logo">
+                <img class="hover" src="./asset/icon/flipkart-header.svg" alt="flipkart logo">
                 <div class="input">
-                    <input type="search" name="search" id="" placeholder="Search for product brand and more">
+                    <input class="hover" type="search" name="search" id="" placeholder="Search for product brand and more">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
                 </div>
             </div>
             <div class="head-div-right">
-                <button class="login-button">Login</button>
-                <button class="btn-same">More</button>
-                <button class="btn-same">Cart</button>
+                <button class="hover login-button">Login</button>
+                <button class="hover btn-same btn-more">More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down-icon lucide-chevron-down"><path d="m6 9 6 6 6-6"/></svg>
+                </button>
+                <button class="hover btn-same btn-cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart-icon lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                    Cart
+                </button>
             </div>
         </div>
     </header>
     <main class="main">
-        <section class="top-section">
 
+        <section class="top-section">
+            <nav class="top-sec-nav">
+                <div class="top-sec-div">
+                    <a href="#">
+                        <img src="./asset/image/top-section/img1.svg" alt="Top Offer">
+                        <span>Top Offer</span>
+                    </a>
+                    <a href="#">
+                        <img src="./asset/image/top-section/img2.svg" alt="Grocerry product">
+                        <span>Grocerry</span>
+                    </a>
+                    <a href="#">
+                        <img src="./asset/image/top-section/img3.svg" alt="Grocerry product">
+                        <span>Grocerry</span>
+                    </a>
+                    <a href="#">
+                        <img src="./asset/image/top-section/img4.svg" alt="Grocerry product">
+                        <span>Grocerry</span>
+                    </a>
+                    <a href="#">
+                        <img src="./asset/image/top-section/img5.svg" alt="Grocerry product">
+                        <span>Grocerry</span>
+                    </a>
+                    <a href="#">
+                        <img src="./asset/image/top-section/img6.svg" alt="Grocerry product">
+                        <span>Grocerry</span>
+                    </a>
+                    <a href="#">
+                        <img src="./asset/image/top-section/img7.svg" alt="Grocerry product">
+                        <span>Grocerry</span>
+                    </a>
+                    <a href="#">
+                        <img src="./asset/image/top-section/img8.svg" alt="Grocerry product">
+                        <span>Grocerry</span>
+                    </a>
+                    <a href="#">
+                        <img src="./asset/image/top-section/img9.svg" alt="Grocerry product">
+                        <span>Grocerry</span>
+                    </a>
+                </div>
+            </nav>
         </section>
+
         <section class="main-section">
             <div class="main-sec-box">
-                <div class="box main-sec-div-top">
-                    <div class="top-div"></div>
-                    <div class="bottom-div"></div>
+
+                <div class="main-sec-div-top">
+                    <div class="top-div">
+                        <p class="top-div-para">
+                            <span class="span-deal">Deal of the Day</span>
+                            <img src="./asset/icon/clock.svg" alt="">
+                            <span class="span-time">22 : 07 : 36 Left</span>
+                        </p>
+                        <button class="hover view-btn">
+                            VIEW All
+                        </button>
+                    </div>
+                    <div class="bottom-div">
+                        <nav class="bottom-div-nav">
+                            <a href="#">
+                                <img src="./asset/image/products/watch.png" alt="Watch image">
+                                <p>Cashio,Fastract,Sonata...</p>
+                                <p>Upto 80%+Extra 10%Off</p>
+                                <p>Knockout deals!</p>
+                            </a>
+                            <a href="#">
+                                <img src="./asset/image/products/watch.png" alt="Watch image">
+                                <p>Cashio,Fastract,Sonata...</p>
+                                <p>Upto 80%+Extra 10%Off</p>
+                                <p>Knockout deals!</p>
+                            </a>
+                            <a href="#">
+                                <img src="./asset/image/products/watch.png" alt="Watch image">
+                                <p>Cashio,Fastract,Sonata...</p>
+                                <p>Upto 80%+Extra 10%Off</p>
+                                <p>Knockout deals!</p>
+                            </a>
+                            <a href="#">
+                                <img src="./asset/image/products/watch.png" alt="Watch image">
+                                <p>Cashio,Fastract,Sonata...</p>
+                                <p>Upto 80%+Extra 10%Off</p>
+                                <p>Knockout deals!</p>
+                            </a>
+                            <a href="#">
+                                <img src="./asset/image/products/keypad-phone.png" alt="Watch image">
+                                <p>Lava A1500</p>
+                                <p>Flat &#8377;830 off</p>
+                                <p>Now &#8377;999</p>
+                            </a>
+                            <a href="#">
+                                <img src="./asset/image/products/keypad-phone.png" alt="Watch image">
+                                <p>Lava A1500</p>
+                                <p>Flat &#8377;830 off</p>
+                                <p>Now &#8377;999</p>
+                            </a>
+                        </nav>
+                        <div class="click-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+                        </div>
+                    </div>
                 </div>
-                <div class="box main-sec-div-bottom">
-                    <div class="top-div2"></div>
-                    <div class="bottom-div2"></div>
+
+                <div class="main-sec-div-mid">
+                    <img src="./asset/image/products/offer-card.png" alt="Offer card">
                 </div>
+
+                <div class="main-sec-div-bottom">
+                    <div class="top-div2">
+                        <p class="top-div2-para">
+                            <span>Books and Music instruments</span>
+                            <button class="hover view-btn">
+                                VIEW All
+                            </button>
+                        </p>
+                        <span>Shop Now!</span>
+                    </div>
+                    <div class="bottom-div">
+                         <nav class="bottom-div2 bottom-div-nav">
+                            <a href="#">
+                                <img src="./asset/image/products/watch.png" alt="Watch image">
+                                <p>Cashio,Fastract,Sonata...</p>
+                                <p>Upto 80%+Extra 10%Off</p>
+                                <p>Knockout deals!</p>
+                            </a>
+                            <a href="#">
+                                <img src="./asset/image/products/watch.png" alt="Watch image">
+                                <p>Cashio,Fastract,Sonata...</p>
+                                <p>Upto 80%+Extra 10%Off</p>
+                                <p>Knockout deals!</p>
+                            </a>
+                            <a href="#">
+                                <img src="./asset/image/products/watch.png" alt="Watch image">
+                                <p>Cashio,Fastract,Sonata...</p>
+                                <p>Upto 80%+Extra 10%Off</p>
+                                <p>Knockout deals!</p>
+                            </a>
+                            <a href="#">
+                                <img src="./asset/image/products/watch.png" alt="Watch image">
+                                <p>Cashio,Fastract,Sonata...</p>
+                                <p>Upto 80%+Extra 10%Off</p>
+                                <p>Knockout deals!</p>
+                            </a>
+                            <a href="#">
+                                <img src="./asset/image/products/watch.png" alt="Watch image">
+                                <p>Cashio,Fastract,Sonata...</p>
+                                <p>Upto 80%+Extra 10%Off</p>
+                                <p>Knockout deals!</p>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
