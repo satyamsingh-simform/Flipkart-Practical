@@ -43,7 +43,7 @@ body{
 .input{
     width: 100%;
     max-width: 36rem;
-    height: 35px;
+    height: 50%;
     background-color: var(--bg-nav);
     display: flex;
 }
