@@ -43,7 +43,7 @@ body{
 .input{
     width: 100%;
     max-width: 36rem;
-    height: 35px;
+    height: 50%;
     background-color: var(--bg-nav);
     display: flex;
 }
@@ -207,13 +207,13 @@ input{
     gap: 10px;
     text-decoration: none;
 }
-.bottom-div-nav a > p:nth-child(2){
+.product-name{
     color: var(--text-main);
 }
-.bottom-div-nav a > p:nth-child(3){
+.discount{
     color: var(--text-green);
 }
-.bottom-div-nav a > p:nth-child(4){
+.deal{
     color: var(--text-muted);
 }
 .click-box{
