@@ -20,6 +20,7 @@ body{
 .head-div{
     width: 88%;
     max-width: 1350px;
+    /* min-width: 570px; */
     margin: 0 auto;
     height: 100%;
     background-color: var(--primary);
@@ -197,8 +198,8 @@ input{
 .bottom-div img{
     height: auto;
     width: 100%;
-    max-width:120px;
-    /* width: 120px; */
+    max-width:100px;
+    min-width: 50px;
     object-fit: contain;
 }
 .bottom-div a{
@@ -209,13 +210,18 @@ input{
     gap: 10px;
     text-decoration: none;
 }
-.text-box > p:nth-child(2){
+.text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.product-name{
     color: var(--text-main);
 }
-.text-box > p:nth-child(3){
+.discout{
     color: var(--text-green);
 }
-.text-box > p:nth-child(4){
+.deal{
     color: var(--text-muted);
 }
 .click-box{
@@ -254,7 +260,7 @@ input{
     padding: 10px 20px 0;
 }
 .top-div2-para span{
-    font-size: 24px;
+    font-size: var(--text-xl);
 }
 .top-div2 > span{
     margin-left:20px ;
