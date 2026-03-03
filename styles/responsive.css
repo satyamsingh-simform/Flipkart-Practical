@@ -1,0 +1,126 @@
+@media(max-width:1500px){
+    #a-6{
+        display: none;
+    }
+}
+@media(max-width:1300px){
+    #a-5{
+        display: none;
+    }
+}
+@media(max-width:1150px){
+    #a-4{
+        display: none;
+    }
+    #bottom-a-5{
+        display: none;
+    }
+}
+@media(max-width:1030px){
+    .input{
+        display: none;
+    }
+    .head-div{
+        justify-content: center;
+    }
+    .head-div-left{
+        flex:0 0 30%;
+    }
+    .head-div-right{
+        flex:0 0 50%;
+    }
+}
+@media(max-width:950px){
+    .bottom-div-nav{
+        display: block;
+    }
+    .main-sec-div-mid{
+        display: none;
+    }
+    .main-sec-div-top{
+        grid-column: 1/-1;
+    }
+    .bottom-div a{
+        flex-direction: row;
+        align-items: center;
+    }
+    .text-box{
+        margin-left:20vw;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.91rem;
+    }
+    #a-6,#a-5,#bottom-a-5{
+        display: flex;
+    }
+    .main-sec-box{
+        width:95%;
+    }
+    .click-box{
+        display: none;
+    }
+    .top-sec-div a{
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:610px){
+    .top-sec-div a{
+        margin-left: 20px;
+    }
+    .input{
+        display:flex;
+    }
+    input{
+    padding: 7px;
+   }
+    .head-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .head-div-left{
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .head-div-right{
+        justify-content: start;
+    }
+   .head-div-left{
+    flex-direction: column;
+   }
+   input{
+    padding: 7px;
+   }
+    .login-button{
+        padding:6px 20px;
+    }
+    .top-div2-para{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        gap: 2px;
+    }
+    .top-div{
+        flex-direction: column;
+        align-items: start;
+        gap: 7px;
+    }
+    .span-deal, #book{
+        font-size: 1rem;
+    }
+    .text-box{
+        margin-right: 20px;
+    }
+    .view-btn, .top-div-para, #book{
+        margin: 3px auto;
+    }
+    #shop{
+        margin-right: 20px;
+        display: block;
+        text-align: center;
+    }
+}
