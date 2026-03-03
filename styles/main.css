@@ -14,7 +14,6 @@ body{
 /* Header section */
 .header{
     width: 100%;
-    height: 4rem;
     background-color: var(--primary);
 }
 .head-div{
@@ -101,6 +100,7 @@ input{
 /* main section */
 .main{
     height: 100%;
+    width: 100%;
 }
 
 /* top section */
@@ -113,12 +113,12 @@ input{
 .top-sec-div{
     width: 100%;
     max-width: 1250px;
-    min-width: 650px;
     margin: 0 auto;
     padding: 10px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: auto;
 }
 .top-sec-div a{
     display: flex;
@@ -136,7 +136,7 @@ input{
 
 /* main-section */
 .main-section{
-    max-width: 100%;
+    width: 100%;
 }
 .main-sec-box{
     width: 88%;
@@ -146,7 +146,6 @@ input{
     display: grid;
     grid-template-columns: 7fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 10px 10px;
 }
 
 
@@ -156,7 +155,6 @@ input{
     box-shadow: var(--shadow-md);
 }
 .top-div{
-    /* min-height: 18%; */
     border-bottom: 1px solid var(--border-accent);
     display: flex;
     justify-content: space-between;
