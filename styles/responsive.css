@@ -71,6 +71,9 @@
     .input{
         display:flex;
     }
+    input{
+    padding: 7px;
+   }
     .head-div{
         flex-direction: column;
         justify-content: center;
@@ -113,11 +116,13 @@
         margin-right: 20px;
     }
     .view-btn, .top-div-para, #book{
-        margin: 0 auto;
+        margin: 3px auto;
     }
     #shop{
         margin-right: 20px;
         display: block;
         text-align: center;
+    }
+    .view{
     }
 }
